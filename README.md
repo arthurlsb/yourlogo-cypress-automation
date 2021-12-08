@@ -1,4 +1,4 @@
-#E-commerce Cypress Automation
+# E-commerce Cypress Automation
 
 ##Description
 This repository contains automated tests to validate a user's journey when registering in this e-commerce: [e-commerce website](http://automationpractice.com/index.php "e-commerce website")
