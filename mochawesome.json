@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-08T01:43:25.358Z",
-    "end": "2021-12-08T01:43:49.165Z",
-    "duration": 23807,
+    "start": "2021-12-08T01:45:41.373Z",
+    "end": "2021-12-08T01:46:11.065Z",
+    "duration": 29692,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "df5715a6-d02d-44ef-bfbd-789909b466f7",
+      "uuid": "f6dac1ab-8c6b-4ec1-8642-9a7d9b258abf",
       "title": "",
       "fullFile": "cypress/integration/registration.spec.js",
       "file": "cypress/integration/registration.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a3dc2bdd-f96a-4c82-8304-377412c4212c",
+          "uuid": "d76f273f-c427-4ccf-9672-ca1fb5056844",
           "title": "Registration",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "fullTitle": "Registration When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "timedOut": null,
-              "duration": 21045,
+              "duration": 26423,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "var email = chance.email();\nvar firstname = chance.first();\nvar lastname = chance.last();\ncy.visit('http://automationpractice.com/index.php');\ncy.get('a.login').contains('Sign in');\ncy.get('a.login').click();\ncy.get('input#email_create').type(email);\ncy.get('button#SubmitCreate').click();\ncy.get('input#id_gender1').check();\ncy.get('input#customer_firstname').type(firstname);\ncy.get('input#customer_lastname').type(lastname);\ncy.get('input#passwd').type('12345');\ncy.get('select#days').select('26');\ncy.get('select#months').select('12');\ncy.get('select#years').select('1999');\ncy.get('input#newsletter').check();\ncy.get('input#firstname').type(firstname);\ncy.get('input#lastname').type(lastname);\ncy.get('input#company').type('ywSoftware');\ncy.get('input#address1').type(chance.address());\ncy.get('input#address2').type(chance.address());\ncy.get('input#city').type(chance.city());\ncy.get('select#id_country').select('United States');\ncy.get('select#id_state').select('Arizona');\ncy.get('input#postcode').type('88050');\ncy.get('textarea#other').type(chance.sentence());\ncy.get('input#phone').type(chance.phone());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.address());\ncy.get('button#submitAccount').click();\ncy.url().should('contain', 'index.php?controller=my-account');",
               "err": {},
-              "uuid": "f62a0dfb-26a1-49e4-a7c5-11e52cdbd145",
-              "parentUUID": "a3dc2bdd-f96a-4c82-8304-377412c4212c",
+              "uuid": "2006e69c-9843-4614-9385-8bdc25bb78c0",
+              "parentUUID": "d76f273f-c427-4ccf-9672-ca1fb5056844",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f62a0dfb-26a1-49e4-a7c5-11e52cdbd145"
+            "2006e69c-9843-4614-9385-8bdc25bb78c0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 21045,
+          "duration": 26423,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
