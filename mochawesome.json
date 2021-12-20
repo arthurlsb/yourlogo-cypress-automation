@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2021-12-20T06:31:21.765Z",
-    "end": "2021-12-20T06:31:49.708Z",
-    "duration": 27943,
+    "start": "2021-12-20T06:33:48.198Z",
+    "end": "2021-12-20T06:34:18.866Z",
+    "duration": 30668,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c065b46b-b05c-478f-a631-927ae4b31913",
+      "uuid": "30a8f2ce-2e83-4ccc-afc3-9d8a6d96f795",
       "title": "",
       "fullFile": "cypress/integration/registration.spec.js",
       "file": "cypress/integration/registration.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0dc5dc06-34cd-4ff8-bfc1-82b3b6b4eae8",
+          "uuid": "70c9f319-f104-41b3-8f18-27da654adfff",
           "title": "Registration",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "fullTitle": "Registration When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "timedOut": null,
-              "duration": 21426,
+              "duration": 23108,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input#id_gender1`, but never found it.\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/registration.spec.js:2219:8)",
                 "diff": null
               },
-              "uuid": "febfacfc-44e3-4211-b0e3-c694a1d901f2",
-              "parentUUID": "0dc5dc06-34cd-4ff8-bfc1-82b3b6b4eae8",
+              "uuid": "3b04acfb-a131-42dc-81de-7ad67994072a",
+              "parentUUID": "70c9f319-f104-41b3-8f18-27da654adfff",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "febfacfc-44e3-4211-b0e3-c694a1d901f2"
+            "3b04acfb-a131-42dc-81de-7ad67994072a"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 21426,
+          "duration": 23108,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
