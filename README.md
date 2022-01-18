@@ -1,10 +1,10 @@
 # E-commerce Cypress Automation
 
 ## Description
-This repository contains automated tests to validate a user's journey when registering in this e-commerce: [e-commerce website](http://automationpractice.com/index.php "e-commerce website")
+This repository contains automated tests to validate a user's journey when registering in this e-commerce: [e-commerce website](http://automationpractice.com/index.php "e-commerce website").
 
 ## Test report
-To access the test report click on this link: https://arthurlsb.github.io/yourlogo-cypress-automation/
+To access the test report click on this link: https://arthurlsb.github.io/yourlogo-cypress-automation/  
 
 ## Test execution gif
 
