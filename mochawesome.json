@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-12-20T06:33:48.198Z",
-    "end": "2021-12-20T06:34:18.866Z",
-    "duration": 30668,
+    "failures": 0,
+    "start": "2022-01-18T18:50:43.370Z",
+    "end": "2022-01-18T18:51:15.633Z",
+    "duration": 32263,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "30a8f2ce-2e83-4ccc-afc3-9d8a6d96f795",
+      "uuid": "e5380485-26e5-4505-8d85-8b58b4825ed1",
       "title": "",
       "fullFile": "cypress/integration/registration.spec.js",
       "file": "cypress/integration/registration.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "70c9f319-f104-41b3-8f18-27da654adfff",
+          "uuid": "caf08734-6963-4049-836d-158d878c4bf5",
           "title": "Registration",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "fullTitle": "Registration When the user accesses the registration page, fills in the data and finishes, then the registration must be performed successfully",
               "timedOut": null,
-              "duration": 23108,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 28286,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "var email = chance.email();\nvar firstname = chance.first();\nvar lastname = chance.last();\ncy.visit('http://automationpractice.com/index.php');\ncy.get('a.login').contains('Sign in');\ncy.get('a.login').click();\ncy.get('input#email_create').type(email);\ncy.get('button#SubmitCreate').click();\ncy.get('input#id_gender1').check();\ncy.get('input#customer_firstname').type(firstname);\ncy.get('input#customer_lastname').type(lastname);\ncy.get('input#passwd').type('12345');\ncy.get('select#days').select('26');\ncy.get('select#months').select('12');\ncy.get('select#years').select('1999');\ncy.get('input#newsletter').check();\ncy.get('input#firstname').type(firstname);\ncy.get('input#lastname').type(lastname);\ncy.get('input#company').type('ywSoftware');\ncy.get('input#address1').type(chance.address());\ncy.get('input#address2').type(chance.address());\ncy.get('input#city').type(chance.city());\ncy.get('select#id_country').select('United States');\ncy.get('select#id_state').select('Arizona');\ncy.get('input#postcode').type('88050');\ncy.get('textarea#other').type(chance.sentence());\ncy.get('input#phone').type(chance.phone());\ncy.get('input#phone_mobile').type(chance.phone());\ncy.get('input#alias').type(chance.address());\ncy.get('button#submitAccount').click();\ncy.url().should('contain', 'index.php?controller=my-account');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input#id_gender1`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input#id_gender1`, but never found it.\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/registration.spec.js:2219:8)",
-                "diff": null
-              },
-              "uuid": "3b04acfb-a131-42dc-81de-7ad67994072a",
-              "parentUUID": "70c9f319-f104-41b3-8f18-27da654adfff",
+              "err": {},
+              "uuid": "56257e2e-2517-4fbd-92be-b7eec2f115bf",
+              "parentUUID": "caf08734-6963-4049-836d-158d878c4bf5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "3b04acfb-a131-42dc-81de-7ad67994072a"
+          "passes": [
+            "56257e2e-2517-4fbd-92be-b7eec2f115bf"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 23108,
+          "duration": 28286,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
